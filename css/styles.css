@@ -84,16 +84,18 @@ p {
 }
 
 .hero-section img {
-  width: 200px;
+  width: 264px;
   height: auto;
-  margin: 20px 0;
+  margin: 32px 0;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 .hero-title {
-  font-size: 48px;
+  font-size: 128px;
   font-weight: 700;
   line-height: 1.3;
-  color: var(--color-primary-light);
+  color: var(--color-brand-light);
   text-align: center;
 }
 
@@ -123,7 +125,7 @@ header {
   padding: 20px 0;
 }
 
-/* Navigation and links */
+/* Navigation and links section */
 .link {
   font-size: 18px;
   font-weight: 400;
@@ -148,6 +150,7 @@ header {
   color: var(--color-primary-light);
   cursor: pointer;
   transition: all 0.3s;
+  font-family: inherit;
 }
 
 .button:hover {
