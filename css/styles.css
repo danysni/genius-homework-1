@@ -193,3 +193,6 @@ span[lang="en"] {
   color: var(--color-brand-light);
   text-transform: lowercase;
 }
+.footer-section {
+  background-color: #131111;
+}
